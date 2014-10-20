@@ -13,7 +13,7 @@ Build Yourself
 docker build --rm -t usertaken/transmission-webui github.com/UserTaken/docker-tor-socks-proxy
 ```
 
-Run Example
+Run
 ```
 docker run -d -p 9050:9050 usertaken/tor-socks-proxy
 ```
