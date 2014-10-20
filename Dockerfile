@@ -1,4 +1,5 @@
 FROM progrium/busybox
+MAINTAINER UserTaken <elysian@live.com>
 RUN opkg-install tor
 RUN mkdir /var/lib/tor && \
 	chown tor:tor /var/lib/tor && \
